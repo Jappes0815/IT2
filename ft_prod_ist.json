@@ -1,0 +1,326 @@
+[
+	{
+		"datum": "15.05.2019 12:00:00",
+		"werte": {
+			"Produktionsablauf": "Rotationswelzschneiden",
+			"Prozesszeit ": "03:38:48",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "true",
+			"Saege": "true",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:01",
+		"werte": {
+			"Produktionsablauf": "Haerten und Anlassen",
+			"Prozesszeit ": "00:34:17",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "true",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "false"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:02",
+		"werte": {
+			"Produktionsablauf": "Bohren und Verguetung",
+			"Prozesszeit ": "01:29:14",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "true",
+			"Saege": "true",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:03",
+		"werte": {
+			"Produktionsablauf": "Montage",
+			"Prozesszeit ": "01:48:22",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "error",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:04",
+		"werte": {
+			"Produktionsablauf": "Montage",
+			"Prozesszeit ": "00:12:46",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:05",
+		"werte": {
+			"Produktionsablauf": "Handling",
+			"Prozesszeit ": "00:05:03",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "false",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "false"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:06",
+		"werte": {
+			"Produktionsablauf": "Justieren",
+			"Prozesszeit ": "00:19:53",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "error",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "false"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:07",
+		"werte": {
+			"Produktionsablauf": "Pruefung (Stichprobentest)",
+			"Prozesszeit ": "02:37:22",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:08",
+		"werte": {
+			"Produktionsablauf": "Schmiedung und Verguetung",
+			"Prozesszeit ": "12:27:05",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "error",
+			"Saege": "true",
+			"Sortierstrecke mit Farberkennung": "error"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:09",
+		"werte": {
+			"Produktionsablauf": "Rotationswelzschneiden",
+			"Prozesszeit ": "03:38:48",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "true",
+			"Saege": "true",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:10",
+		"werte": {
+			"Produktionsablauf": "Haerten und Anlassen",
+			"Prozesszeit ": "00:34:17",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "true",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "false"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:11",
+		"werte": {
+			"Produktionsablauf": "Bohren und Verguetung",
+			"Prozesszeit ": "02:29:14",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "true",
+			"Saege": "true",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:12",
+		"werte": {
+			"Produktionsablauf": "Montage",
+			"Prozesszeit ": "01:48:22",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "error",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "error"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:13",
+		"werte": {
+			"Produktionsablauf": "Montage",
+			"Prozesszeit ": "00:12:46",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:14",
+		"werte": {
+			"Produktionsablauf": "Handling",
+			"Prozesszeit ": "00:05:03",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "false",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "false"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:15",
+		"werte": {
+			"Produktionsablauf": "Justieren",
+			"Prozesszeit ": "00:19:53",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "error",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "false"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:16",
+		"werte": {
+			"Produktionsablauf": "Pruefung (Stichprobentest)",
+			"Prozesszeit ": "02:37:22",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "error"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:17",
+		"werte": {
+			"Produktionsablauf": "Schmiedung und Verguetung",
+			"Prozesszeit ": "12:27:05",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "error",
+			"Saege": "true",
+			"Sortierstrecke mit Farberkennung": "error"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:18",
+		"werte": {
+			"Produktionsablauf": "Rotationswelzschneiden",
+			"Prozesszeit ": "03:38:48",
+			"Automatisiertes Hochregallager": "error",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "true",
+			"Saege": "true",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:19",
+		"werte": {
+			"Produktionsablauf": "Haerten und Anlassen",
+			"Prozesszeit ": "01:34:17",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "true",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "false"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:20",
+		"werte": {
+			"Produktionsablauf": "Bohren und Verguetung",
+			"Prozesszeit ": "01:29:14",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "true",
+			"Saege": "true",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:21",
+		"werte": {
+			"Produktionsablauf": "Montage",
+			"Prozesszeit ": "01:48:22",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "error",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:22",
+		"werte": {
+			"Produktionsablauf": "Montage",
+			"Prozesszeit ": "00:12:46",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:23",
+		"werte": {
+			"Produktionsablauf": "Handling",
+			"Prozesszeit ": "00:05:03",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "false",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "false"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:24",
+		"werte": {
+			"Produktionsablauf": "Justieren",
+			"Prozesszeit ": "01:19:53",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "error",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "false"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:25",
+		"werte": {
+			"Produktionsablauf": "Pruefung (Stichprobentest)",
+			"Prozesszeit ": "02:37:22",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "false",
+			"Saege": "false",
+			"Sortierstrecke mit Farberkennung": "true"
+		}
+	},
+	{
+		"datum": "15.05.2019 12:00:26",
+		"werte": {
+			"Produktionsablauf": "Schmiedung und Verguetung",
+			"Prozesszeit ": "12:27:05",
+			"Automatisiertes Hochregallager": "true",
+			"Vakuum-Sauggreifer": "true",
+			"Brennofen ": "error",
+			"Saege": "true",
+			"Sortierstrecke mit Farberkennung": "error"
+		}
+	}
+]

@@ -27,7 +27,7 @@
 		"datum": "15.05.2019 12:00:02",
 		"werte": {
 			"Produktionsablauf": "Bohren und Verguetung",
-			"Prozesszeit ": "01:29:14",
+			"Prozesszeit ": "00:29:14",
 			"Automatisiertes Hochregallager": "true",
 			"Vakuum-Sauggreifer": "true",
 			"Brennofen ": "true",
@@ -135,8 +135,8 @@
 		"datum": "15.05.2019 12:00:11",
 		"werte": {
 			"Produktionsablauf": "Bohren und Verguetung",
-			"Prozesszeit ": "02:29:14",
-			"Automatisiertes Hochregallager": "true",
+			"Prozesszeit ": "00:29:14",
+			"Automatisiertes Hochregallager": "error",
 			"Vakuum-Sauggreifer": "true",
 			"Brennofen ": "true",
 			"Saege": "true",

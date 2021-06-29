@@ -196,6 +196,7 @@ function updateSubGraph(name, status) {
         .text(function(d) { return d.count; });
 
     d3.select("#SubgraphInfo")
+        .style("font-size", Math.round(document.getElementById("Subgraph").getBoundingClientRect().width / 30) + "px")
         .html('<h4>Legende</h4>' + keys.join('<br/>'));
 }
 

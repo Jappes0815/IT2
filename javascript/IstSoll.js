@@ -171,6 +171,7 @@ function drawIstSollTable(data, tableid, dimensions, valueFunc, textFunc, column
         .on("click", function(i, d) {
             d3.select("#SubgraphInfo")
                 .html('<h4>' + d.text + ': <br>' + d.value + '</h4>')
+                .style("font-size", Math.round(document.getElementById("Subgraph").getBoundingClientRect().width / 30) + "px");
         })
         .style("font-size", Math.round(dimensions.width / 30) + "px");
 }

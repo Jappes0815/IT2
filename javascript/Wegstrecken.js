@@ -191,6 +191,7 @@ function drawWegstreckenSubTable(data, tableid, dimensions, dateFunc, stationFun
         })
         .on("click", function(i, d) {
             d3.select("#SubgraphInfo")
+                .style("font-size", Math.round(document.getElementById("Subgraph").getBoundingClientRect().width / 30) + "px")
                 .html('<h4>' + d.date + ':</h4> <br>' + d.station + ' Priorität ' + d.prio + '.')
         })
         .style("font-size", Math.round(dimensions.width / 30) + "px");

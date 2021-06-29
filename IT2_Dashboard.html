@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hauptmenü</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="https://d3js.org/d3.v6.js"></script>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container">
+            <a class="hauptmenü" href="#">Innovation<span>Technology</span>2</a>
+            <p class="firmenname">PID<span>4</span>CPS</p>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="container2">
+            <div class="left-col">
+                <h2 class="subhead">Historie und Datensammlung</h2>
+                <p>
+                    Dieses Dashboard dient als Historie & Datensammlung des "Portable Industrial Demonstrator for Cyber-Physical Systems - PID4CPS". Die Graphen geben eine Übersicht über die kumulierten Statiänderungen, Ist- und Sollzustände sowie eine Verfolgung der Wegstrecken
+                    für einzelne Werkstücke.
+                </p>
+            </div>
+            <img src="bilder/Fabrik.jpg" class="hero-image" alt="illustration">
+        </div>
+        <div class="container-chart">
+            <div class="chart" , id="Statuschange">
+            </div>
+            <div class="chart" , id="IstSoll">
+            </div>
+            <div class="chart" , id="Wegstrecken">
+            </div>
+        </div>
+    </section>
+    <div class="container-extra">
+        <div class="extra-chart" , id="Subgraph">
+        </div>
+        <div class="container-extra-info" , id="SubgraphInfo">
+            <h4>
+                Detailansicht
+            </h4>
+            <p>
+                Bitte tippen Sie auf die Werte der Graphen, um eine detaillierte Aufschlüsselung zu erhalten.
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript" src="./javascript/Statuschanges.js">
+    </script>
+    <script type="text/javascript" src="./javascript/IstSoll.js">
+    </script>
+    <script type="text/javascript" src="./javascript/Wegstrecken.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;700&display=swap");
+ :root {
+    --primary-color: #314151;
+    --secondary-color: #717e87;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: var(--secondary-color);
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.topbar {
+    background: #314151;
+    padding: 0.2em;
+    height: 4%;
+}
+
+.topbar .hauptmenü {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(204, 204, 204);
+    font-size: 1em;
+    padding-top: 0.4em;
+}
+
+.topbar .hauptmenü span {
+    color: var(--secondary-color);
+}
+
+.topbar .firmenname {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 1em;
+}
+
+.topbar .firmenname span {
+    color: rgb(204, 204, 204);
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: space-between;
+}
+
+.hero {
+    height: 60%;
+    text-align: center;
+    padding: 0em 1em;
+    margin: 0;
+}
+
+.hero .left-col .subhead {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 1.6em;
+}
+
+.hero .left-col p {
+    margin: 0;
+}
+
+.hero .hero-image {
+    width: 30%;
+    height: 30%;
+    margin-top: .5em;
+}
+
+.hero .chart {
+    width: 50%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.hero .chart .bodyTable td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hero .chart .bodyTable tr {
+    height: 30px;
+}
+
+.hero .chart .bodyTable tr:hover {
+    background-color: grey;
+}
+
+.hero .chart .headerTable th:hover {
+    background-color: grey;
+}
+
+.hero .chart .scroll {
+    overflow: auto;
+}
+
+.container2 {
+    height: 40%;
+}
+
+.container-chart {
+    height: 60%;
+}
+
+
+/*ENDE MAIN TABLE */
+
+.container-extra {
+    height: 26%;
+    background: white;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    padding-top: 0em;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.container-extra .extra-chart {
+    margin: auto;
+    padding: 0;
+    height: 90%;
+    width: 40%;
+}
+
+
+/*START TABLE CONTENT FOOTER */
+
+.container-extra .extra-chart .bodyTable td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.container-extra .extra-chart .bodyTable tr {
+    height: 40px;
+}
+
+.container-extra .extra-chart .bodyTable tr:hover {
+    background-color: grey;
+}
+
+.container-extra .extra-chart .headerTable th:hover {
+    background-color: grey;
+}
+
+.container-extra .extra-chart .scroll {
+    overflow: auto;
+}
+
+
+/*ENDE*/
+
+.container-extra .container-extra-info {
+    width: 60%;
+    margin-left: 10px;
+}
+
+.container-extra .container-extra-info h4 {
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.container-extra .container-extra-info p {
+    margin: 0;
+    margin-left: 5px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    .container2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        place-content: space-evenly;
+    }
+    .container2 .left-col {
+        text-align: left;
+    }
+    .container2 .left-col .subhead {
+        margin: 0 auto;
+    }
+    .container2 .hero-image {
+        width: 240px;
+        height: 180px;
+    }
+    .container-chart {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 20px;
+    }
+    .container-chart .chart {
+        width: 25%;
+    }
+    .container-extra {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1316px) {
+    .container-chart {
+        margin-top: 5px;
+    }
+    .container3 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        place-content: space-between;
+    }
+}

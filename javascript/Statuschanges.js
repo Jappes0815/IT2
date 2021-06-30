@@ -101,8 +101,6 @@ function updateGraph(statusArray) {
 function updateSubGraph(name, status) {
     var keys = [];
     var data = [];
-    console.log(name)
-    console.log(status)
     if (name === "Hochregallager") {
         keys = ["1 -Referenztaster horizontal", "2 - Referenztaster vertikal", "3 - Referenztaster Ausleger vorne", "4 - Referenztaster Ausleger hinten", "5 - Lichtschranke innen", "6 - Lichtschranke aussen", "7 - H-horizontal", "8 - H-vertikal"]
         for (var i = keys.length - 1; i >= 0; i--) {
@@ -136,8 +134,6 @@ function updateSubGraph(name, status) {
         width = StatuschangeDiv.getBoundingClientRect().width - margin.left - margin.right,
         height = StatuschangeDiv.getBoundingClientRect().height - margin.top - margin.bottom;
 
-    console.log(width);
-    console.log(height);
     // append the svg object to the body of the page
     var subsvg = d3.select("#Subgraph")
         .append("svg")
@@ -196,8 +192,8 @@ function updateSubGraph(name, status) {
         .text(function(d) { return d.count; });
 
     d3.select("#SubgraphInfo")
-        .style("font-size", Math.round(document.getElementById("Subgraph").getBoundingClientRect().width / 30) + "px")
-        .html('<h4>Legende</h4>' + keys.join('<br/>'));
+        .html('<h4>Legende</h4>' + keys.join('<br/>'))
+        .style("font-size", Math.round(document.getElementById("Subgraph").getBoundingClientRect().width / 30) + "px");
 }
 
 
